@@ -1,9 +1,9 @@
 // out: css/main.css, sourcemap: true
 @DarkSide: darken(red, 25);
-
-
+@LightSide: lighten(blue, 9);
+@DarkSide-mute: desaturate(@DarkSide, 50);
 
 
 body{
-  background-color: @DarkSide;
+  background-color: @DarkSide-mute;
 }
