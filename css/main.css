@@ -38,3 +38,8 @@ P img {
   margin-left: 20px;
   margin-right: 0px;
 }
+@media screen and (min-width: 790px) {
+  h1 {
+    font-size: 4.4em;
+  }
+}
