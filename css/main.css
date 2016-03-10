@@ -28,4 +28,6 @@ img {
 P img {
   float: right;
   width: 100px;
+  margin-left: 20px;
+  margin-right: 0px;
 }
