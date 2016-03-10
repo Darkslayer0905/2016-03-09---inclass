@@ -2,10 +2,11 @@
 @DarkSide: darken(red, 25);
 @LightSide: lighten(blue, 9);
 @DarkSide-mute: desaturate(@DarkSide, 50);
-
+@FontSide: lighten(@DarkSide, 70);
 
 body{
   background-color: @DarkSide-mute;
+  color: @FontSide;
 }
 
 h1{
