@@ -4,6 +4,7 @@ body {
   font-size: 18px;
 }
 h1 {
+  margin-bottom: 20px;
   background-color: #2e2eff;
   border-top: 15px solid #800000;
   color: white;
