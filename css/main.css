@@ -3,6 +3,9 @@ body {
   color: #ffe5e5;
   font-size: 18px;
 }
+body + h2 {
+  margin-top: -20px;
+}
 h1 {
   margin-bottom: 20px;
   background-color: #2e2eff;
@@ -13,4 +16,7 @@ h1 {
 h2 {
   background-color: #800000;
   font-size: 36px;
+}
+h2 + p {
+  margin-bottom: 36;
 }
