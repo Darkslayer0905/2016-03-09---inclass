@@ -39,7 +39,13 @@ P img {
   margin-right: 0px;
 }
 @media screen and (min-width: 790px) {
+  body {
+    font-size: 1.1em;
+  }
   h1 {
     font-size: 4.4em;
+  }
+  .page-container {
+    width: 80%;
   }
 }
